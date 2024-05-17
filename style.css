@@ -8,21 +8,17 @@
     padding: 0;
     box-sizing: border-box;
     /* tamaño de caja*/ 
+    
 } 
 
-
+/*---------------------------------------------header--------------------------------------*/
 .navbar-collapse {
     display: flex;
     justify-content: end;
-   
-
-
-
-
 }
 
 .navbar{
-    background-color: green;
+    background-color: rgb(39, 161, 39); 
     
 
 }
@@ -31,57 +27,19 @@
     height: 100px;
     border-radius: 100%;
     display: inline-block;
-
-
 }
 
 
-
-/* header nav {
-height: 70px;
-text-align: end;
-background-color: green;
+/*---------------------------------------body---------------------------------------------*/
+body{
+    background-color: rgb(199, 197, 197);
 
 }
-
- .header__links nav ul li { 
- display: inline-block;
- color: black;
- font-size: 24px;
- margin-left: 20px;
- text-decoration: none; 
- probando boostrap
- } */
-
-
-
-
-
-
- /* header nav ul li {
- display: inline-block;
- font-size: 24px;
- margin-left: 20px;
- 
- 
-} */
-/* #banner a{
-
-    color: black;
-    text-decoration: none;
-
-} corregir no va*/
-/* el punto se llama a una clase*/ 
-  /* main {
- background-color: rgb(rgba(71, 68, 68, 0.233), green, blue);  
-
-
-} */
 #banner{
  position: relative;
  width: 100%;
  height: auto;
- background-color: black;
+ 
  
 }
 #banner img {
@@ -129,13 +87,26 @@ display: inline-block;
     top: -350px;
     }
 
+/*-------------------------------------contacto--------------------------------------------*/
+
+.contenido{
+    width: 600px;
+    border:rgb(24, 23, 24) solid 2px;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgb(35, 143, 35);
+    
+}
+#mapa {
+
+    text-align: center;
+    margin: 20px;
+    }
+
 
     
- #mapa {
+ 
 
-text-align: center;
-margin: 50px;
-}
 /*------------------------------------- IMAGENES EN CALZADOS-------------------------------------*/
 
 #contentIMG {
@@ -152,13 +123,14 @@ margin: 50px;
     
 }
 
+
 .tamañobox img {
   width: 100%;
   height: 100%;
 }
 
 
-.gridImg1 {
+/* .gridImg1 {
     grid-area: "gridImg1";
 }
 .gridImg2 {
@@ -169,7 +141,7 @@ margin: 50px;
 } 
 .gridImg4 {
     grid-area: "gridImg4";
-}
+} */
 /*
 .gridImg1 {
     background-image: url(../Images/Calzados/WhatsApp\ Image\ 2023-11-05\ at\ 16.06.04.jpeg);
