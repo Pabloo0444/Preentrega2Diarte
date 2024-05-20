@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
   
@@ -218,4 +219,226 @@ text-decoration: none;
     }
 
 
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+  
+  
+  *{
+    font-family: "Madimi One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* tamaño de caja*/ 
+    
+} 
+
+/*---------------------------------------------header--------------------------------------*/
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar{
+    background-color: rgb(39, 161, 39); 
+    
+
+}
+
+.navbar-brand img {
+    height: 100px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+/*---------------------------------------body---------------------------------------------*/
+body{
+    background-color: rgb(199, 197, 197);
+
+}
+#banner{
+ position: relative;
+ width: 100%;
+ height: auto;
+ 
+ 
+}
+#banner img {
+position: relative;
+width: 100%;
+height: 100vh;
+}
+#banner .banner__contenido {
+position: absolute;
+top: 0;
+width: 400px;
+text-align: center;
+
+}
+
+
+
+#banner img {
+    /* #para llamar secciones*/
+    width: 100%; 
+    /* ancho*/
+    height:500px;
+    /*alto*/
+}
+#productos img {
+position: relative;
+    width: 300px;
+height: 300px;
+}
+#productos article {
+width: 400px;
+height: 400px;
+margin: 10px;
+border-radius: 100px;
+text-align: center;
+padding-top: 10px;
+display: inline-block;
+
+} 
+ 
+#Lista {
+    text-align:start;
+    margin: 50px;
+    position: relative;
+    top: -350px;
+    }
+
+/*-------------------------------------contacto--------------------------------------------*/
+
+.contenido{
+    width: 600px;
+    border:rgb(24, 23, 24) solid 2px;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgb(35, 143, 35);
+    
+}
+#mapa {
+
+    text-align: center;
+    margin: 20px;
+    }
+
+
+    
+ 
+
+/*------------------------------------- IMAGENES EN CALZADOS-------------------------------------*/
+
+#contentIMG {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 800px);
+    gap: 10px;
+
+    grid-template-areas:
+    /*COLUMNA 1 COLUMNA2*/
+    "gridImg1 griImg2" /* FILA 1 */
+    "gridImg3 gridImg4" /* FILA 2 */
+    ;
+    
+}
+
+
+.tamañobox img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* .gridImg1 {
+    grid-area: "gridImg1";
+}
+.gridImg2 {
+    grid-area: "gridImg2";
+} 
+.gridImg3 {
+    grid-area: "gridImg3";
+} 
+.gridImg4 {
+    grid-area: "gridImg4";
+} */
+/*
+.gridImg1 {
+    background-image: url(../Images/Calzados/WhatsApp\ Image\ 2023-11-05\ at\ 16.06.04.jpeg);
+    background-size: cover;
+}
+.gridImg2 {
+    background-image: url(../Images/Calzados/WhatsApp\ Image\ 2023-11-05\ at\ 17.06.19.jpeg);
+    background-size: cover;
+}
+.gridImg3 {
+    background-image: url(../Images/Calzados/WhatsApp\ Image\ 2023-11-05\ at\ 17.06.19\ \(1\).jpeg);
+    background-size: cover;
+} 
+.gridImg4 {
+    background-image: url(../Images/Calzados/WhatsApp\ Image\ 2023-11-05\ at\ 17.06.22.jpeg);
+    background-size: cover;
+}
+
+*/
+
+
+
+#footer {
+margin-top: auto;
+width: 100%;
+height: 170px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 80px;
+background-color: green;
+}
+
+
+
+
+.footer__logo img {
+width: 100px;
+height: 100px;
+border-radius: 100%;
+
+}
+.footer__socialmedia img { 
+border: 1px dotted black;
+border-radius: 100%;
+padding: 4px;    
+width: 50px;
+margin: 5px;
+}
+
+.footer__links ul {
+display: flex;
+flex-direction: column;
+text-align: center;
+list-style: none;
+/* para quitar las viñetas */
+}
+
+.footer__links ul li a {
+color: black;
+font-size: 20px;
+margin-top: 7px;
+text-decoration: none;
+/* para quitar lo subrayado */
+
+}
+
+@media (max-widht: 768px) {
+    .footerlogo { 
+        width: 100px;
+      height: 100px;
+    
+    
+    }
+
+
+>>>>>>> 053eca4c3eadc9832f0ef389a933f4df0056b798
 }
